@@ -1,0 +1,113 @@
+/* Simple CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  background-color: #1e201e;
+  color: #ecdfcc;
+}
+
+main {
+  height: 100%;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+:root {
+  --center-widht-px: 800px;
+  --center-width-pc: 50%;
+}
+
+#left {
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+#center {
+  height: 100%;
+  width: var(--center-widht-px);
+  max-width: var(--center-width-pc);
+  position: relative;
+}
+
+#left,
+#right {
+  width: calc((100% - min(var(--center-widht-px), var(--center-width-pc))) / 2);
+  position: fixed;
+  left: 0;
+}
+
+#buffer1 {
+  height: 15%;
+  width: 100%;
+}
+
+
+
+
+#date {
+  font-size: 1.5rem;
+  position: sticky;
+  top: 0;
+  background-color: #1e201e;
+  padding-bottom: 5px;
+}
+#til {
+  background-color: #3C3D37;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+a {
+  border-bottom: 1px solid #ecdfcc;
+}
