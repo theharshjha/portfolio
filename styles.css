@@ -91,9 +91,6 @@ a {
   width: 100%;
 }
 
-
-
-
 #date {
   font-size: 1.5rem;
   position: sticky;
@@ -102,10 +99,10 @@ a {
   padding-bottom: 5px;
 }
 #til {
-  background-color: #3C3D37;
+  background-color: #3c3d37;
   margin-bottom: 1rem;
   border-radius: 1rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 a {
