@@ -1,0 +1,15 @@
+#date {
+  font-size: 1.5rem;
+  position: sticky;
+  top: 0;
+  background-color: #1e201e;
+  margin-top: 0;
+  padding-bottom: 5px;
+}
+
+#til {
+  background-color: #3c3d37;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
