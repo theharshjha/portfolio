@@ -1,0 +1,14 @@
+a div {
+    border-radius: 14px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: transparent;
+    border: 2px solid hsl(240 5.68% 26.08%);
+}
+
+#data a {
+    border: none;
+}

@@ -48,30 +48,24 @@ a {
 
 /* CSS Reset End */
 
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* :root {
     --center-width: 1200px;
     --color0: #1e201e;
     --color1: #3c3d37;
     --color2: #697565;
     --color3: #ecdfcc;
-}
+} */
 
-/*
+
 :root {
     --center-width: 1200px;
-    --color0: #222831;
-    --color1: #393E46;
-    --color2: #00ADB5;
+    --color0: #000000;
+    --color1: #252525;
+    --color2: #6D5D6E;
     --color3: #EEEEEE;
-} */
-
-/* :root {
-    --center-width: 1200px;
-    --color3: #2C3639;
-    --color2: #3F4E4F;
-    --color1: #A27B5C;
-    --color0: #DCD7C9;
-} */
+}
 
 
 a {
@@ -81,6 +75,10 @@ a {
 body {
     background: var(--color0);
     color: var(--color3);
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
 }
 
 li {
