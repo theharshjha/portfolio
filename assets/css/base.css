@@ -50,31 +50,21 @@ a {
 
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* :root {
-    --center-width: 1200px;
-    --color0: #1e201e;
-    --color1: #3c3d37;
-    --color2: #697565;
-    --color3: #ecdfcc;
-} */
 
 
 :root {
     --center-width: 1200px;
-    --color0: #000000;
-    --color1: #252525;
-    --color2: #6D5D6E;
-    --color3: #EEEEEE;
+
 }
 
 
-a {
-    border-bottom: 1px solid var(--color3);
-}
 
 body {
-    background: var(--color0);
-    color: var(--color3);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../background.avif');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
