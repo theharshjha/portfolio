@@ -60,7 +60,7 @@ a {
 
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../background.avif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../background.webp');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
