@@ -1,0 +1,47 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIL | Harsh Jha</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/til.css">
+    <!-- <script defer src="#"></script> -->
+   
+</head>
+
+<body>
+    <div id="space"></div>
+
+    <div id="screen">
+        <div id="left">
+            <div id="buffer"></div>
+            <div id="nav">
+                <ul>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="til.html">TIL</a></li>
+                        <li><a href="connect.html">Connect</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <!-- <li><a href="blogs.html"></a></li> -->
+                        <li><a href="assets/pdf/resume.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <div id="center">
+            <div id="buffer">
+                <h2>HARSH JHA</h2>
+                <div id="secret">
+                    <div id="nav">
+                        <ul>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="til.html">TIL</a></li>
+                                <li><a href="connect.html">Connect</a></li>
+                                <li><a href="projects.html">Projects</a></li>
+                                <!-- <li><a href="blogs.html"></a></li> -->
+                                <li><a href="assets/pdf/resume.pdf" target="_blank">Resume</a></li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>

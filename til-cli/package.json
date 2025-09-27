@@ -1,0 +1,16 @@
+{
+  "name": "til-cli",
+  "version": "1.0.0",
+  "description": "Manage #TILS through command line",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "til": "./index.js"
+  },
+  "author": "imtheonly1",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.9.6",
+    "yargs": "^18.0.0"
+  }
+}
