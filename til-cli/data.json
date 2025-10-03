@@ -1,34 +1,11 @@
 {
   "tils": {
-    "2025-09-27": [
+     "2025-10-03": [
       {
-        "til": "i learnede a lot \n\n\nfasd\n\n",
+        "til": "A daemon is a non-interactive background process.",
         "tags": [
-          "node",
-          "mongo",
-          "harsh jha"
-        ]
-      },
-      {
-        "til": "i learnede a lot \n\n\nfasd\n\n",
-        "tags": [
-          "node",
-          "mongo",
-          "harsh jha"
-        ]
-      },
-      {
-        "til": "i learnede a lot \n\n\nfasd\n\n",
-        "tags": [
-          "node",
-          "mongo",
-          "harsh jha"
-        ]
-      },
-      {
-        "til": "I'm gonna pop some tag\nonly got just 20 dollars in my pocker\n\n\n\nThis is fukcin awersome\n",
-        "tags": [
-          "song"
+          "linux",
+          "os"
         ]
       }
     ]
