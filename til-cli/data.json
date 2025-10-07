@@ -1,11 +1,26 @@
 {
   "tils": {
-     "2025-10-03": [
+    "2025-10-03": [
       {
         "til": "A daemon is a non-interactive background process.",
         "tags": [
           "linux",
           "os"
+        ]
+      }
+    ],
+    "2025-10-07": [
+      {
+        "til": "Docker build happens inside container.\n",
+        "tags": [
+          "Docker"
+        ]
+      },
+      {
+        "til": "zip -r \"output-file-name\" \"source-dir\" -i \"include-file-regex\" -x \"ignore-file-regex\"",
+        "tags": [
+          "zip",
+          "linux"
         ]
       }
     ]

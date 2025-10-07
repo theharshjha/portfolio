@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro&display=swap');
+
 /* CSS Reset */
 * {
     margin: 0;
@@ -21,7 +23,9 @@ video,
 canvas,
 svg {
     display: block;
+    height: 100%;
     max-width: 100%;
+    max-height: 100%;
 }
 
 input,
@@ -48,7 +52,7 @@ a {
 
 /* CSS Reset End */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 
 
@@ -67,6 +71,7 @@ body {
     color: white;
     font-family: "Inter Tight", sans-serif;
     font-optical-sizing: auto;
+    font-weight: 400;
     font-style: normal;
     font-size: 16px;
 }
@@ -94,6 +99,10 @@ ul {
     scrollbar-width: none;
     overflow: scroll;
     position: relative;
+}
+
+#center #buffer h2 {
+    font-size: 2rem;
 }
 
 #left,
