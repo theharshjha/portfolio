@@ -1,5 +1,4 @@
 #date {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../background.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -11,11 +10,12 @@
 }
 
 #til {
-  color: white;
+
+  color: antiquewhite;
   margin-bottom: 1rem;
   border-radius: 1rem;
   padding: 0.5rem;
-  background: rgba(255, 255, 255, 0.13);
+  background: rgba(255, 255, 255, 0.013);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.1px);

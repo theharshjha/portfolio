@@ -21,7 +21,7 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="til.html">TIL</a></li>
               <li><a href="connect.html">Connect</a></li>
-              <li><a href="projects.html">Projects</a></li>
+              <li><a href="projects.html" class="flare-link">Projects</a></li>
               <!-- <li><a href="blogs.html"></a></li> -->
               <li>
                 <a href="assets/pdf/resume.pdf" target="_blank">Resume</a>
@@ -40,7 +40,7 @@
                   <li><a href="index.html">Home</a></li>
                   <li><a href="til.html">TIL</a></li>
                   <li><a href="connect.html">Connect</a></li>
-                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="projects.html" class="flare-link">Projects</a></li>
                   <!-- <li><a href="blogs.html"></a></li> -->
                   <li>
                     <a href="assets/pdf/resume.pdf" target="_blank">Resume</a>
@@ -51,90 +51,160 @@
           </div>
         </div>
         <div id="data">
-                <div id="project">
-                    <div id="title">
-                        <h2>TIL CLI</h2>
-                        <div id="github-logo"><a href="http://github.com/theharshjha/portfolio" target="_blank"><img
-                                    src="./assets/github-mark-white.svg" alt=""></a></div>
-                    </div>
-                    <div id="tech-stack">
-                        <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScripts"><svg
-                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-                                <path fill="#F0DB4F" d="M1.408 1.408h125.184v125.185H1.408z" />
-                                <path fill="#323330"
-                                    d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z" />
-                            </svg>
-                        </a>
-                        <a target="_blank" href="https://nodejs.org/en">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-                                <path fill="#83CD29"
-                                    d="M112.771 30.334L68.674 4.729c-2.781-1.584-6.402-1.584-9.205 0L14.901 30.334C12.031 31.985 10 35.088 10 38.407v51.142c0 3.319 2.084 6.423 4.954 8.083l11.775 6.688c5.628 2.772 7.617 2.772 10.178 2.772 8.333 0 13.093-5.039 13.093-13.828v-50.49c0-.713-.371-1.774-1.071-1.774h-5.623C42.594 41 41 42.061 41 42.773v50.49c0 3.896-3.524 7.773-10.11 4.48L18.723 90.73c-.424-.23-.723-.693-.723-1.181V38.407c0-.482.555-.966.982-1.213l44.424-25.561c.415-.235 1.025-.235 1.439 0l43.882 25.555c.42.253.272.722.272 1.219v51.142c0 .488.183.963-.232 1.198l-44.086 25.576c-.378.227-.847.227-1.261 0l-11.307-6.749c-.341-.198-.746-.269-1.073-.086-3.146 1.783-3.726 2.02-6.677 3.043-.726.253-1.797.692.41 1.929l14.798 8.754a9.294 9.294 0 004.647 1.246c1.642 0 3.25-.426 4.667-1.246l43.885-25.582c2.87-1.672 4.23-4.764 4.23-8.083V38.407c0-3.319-1.36-6.414-4.229-8.073zM77.91 81.445c-11.726 0-14.309-3.235-15.17-9.066-.1-.628-.633-1.379-1.272-1.379h-5.731c-.709 0-1.279.86-1.279 1.566 0 7.466 4.059 16.512 23.453 16.512 14.039 0 22.088-5.455 22.088-15.109 0-9.572-6.467-12.084-20.082-13.886-13.762-1.819-15.16-2.738-15.16-5.962 0-2.658 1.184-6.203 11.374-6.203 9.105 0 12.461 1.954 13.842 8.091.118.577.645.991 1.24.991h5.754c.354 0 .692-.143.94-.396.24-.272.367-.613.335-.979-.891-10.568-7.912-15.493-22.112-15.493-12.631 0-20.166 5.334-20.166 14.275 0 9.698 7.497 12.378 19.622 13.577 14.505 1.422 15.633 3.542 15.633 6.395 0 4.955-3.978 7.066-13.309 7.066z" />
-                            </svg>
-                        </a>
-                        <a target="_blank" href="https://yargs.js.org/">
-                            <img src="./assets/yargs-logo.png">
-                        </a>
-                        <a target="_blank" href="https://www.npmjs.com/package/inquirer">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-                                <path fill="#cb3837"
-                                    d="M2 38.5h124v43.71H64v7.29H36.44v-7.29H2zm6.89 36.43h13.78V53.07h6.89v21.86h6.89V45.79H8.89zm34.44-29.14v36.42h13.78v-7.28h13.78V45.79zm13.78 7.29H64v14.56h-6.89zm20.67-7.29v29.14h13.78V53.07h6.89v21.86h6.89V53.07h6.89v21.86h6.89V45.79z" />
-                            </svg>
-                        </a>
-                    </div>
-                    <div id="desc">
-                        <code>
-                            <i><b>Why I Built This Project</b></i>
-                            <br>
-                            I wasn’t interested in building another clone or following along with a YouTube tutorial. Fortunately, I’d read somewhere that many of the most widely used applications like Git, Linux, Slack, and Gmail, etc. all started as personal or hobby projects. That idea stuck with me.
-                            <br>
-                            So I asked myself: <b><i>What can I build that I’d actually use every day?</i></b>
-                            <br>
-                            At the time, I already had a <a href="/til.html">“TIL”(Today I Learned)</a> page on my website where I documented small learnings. To make that process faster and more efficient, I decided to build a command-line utility that lets me quickly record new TILs and automatically generate a static HTML page with all entries to date.
-                        </code>
-                    </div>
-                </div>
-                <div id="project">
-                    <div id="title">
-                        <h2>GODLY</h2>
-                        <div id="github-logo"><a href="https://github.com/theharshjha/godly" target="_blank"><img
-                                    src="./assets/github-mark-white.svg" alt=""></a></div>
-                    </div>
-                    <div id="tech-stack">
-                        <a target="_blank" href="https://en.wikipedia.org/wiki/C%2B%2B">
-                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="auto"
-                                viewBox="0 0 48 48">
-                                <path fill="#00549d" fill-rule="evenodd"
-                                    d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0 c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867 c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0 c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867 c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z"
-                                    clip-rule="evenodd"></path>
-                                <path fill="#0086d4" fill-rule="evenodd"
-                                    d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255 c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836c3.343-1.872,13.405-7.507,16.748-9.38 c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z"
-                                    clip-rule="evenodd"></path>
-                                <path fill="#fff" fill-rule="evenodd"
-                                    d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14 s-14-6.273-14-14S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z"
-                                    clip-rule="evenodd"></path>
-                                <path fill="#0075c0" fill-rule="evenodd"
-                                    d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784 c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127L23.593,24L42.485,13.205z"
-                                    clip-rule="evenodd"></path>
-                                <path fill="#fff" fill-rule="evenodd" d="M31 21H33V27H31zM38 21H40V27H38z"
-                                    clip-rule="evenodd"></path>
-                                <path fill="#fff" fill-rule="evenodd" d="M29 23H35V25H29zM36 23H42V25H36z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </a>
-                        <a href="https://cmake.org/" target="_blank">
-                            <img src="./assets/cmake-icon.svg" alt="">
-                        </a>
-                    </div>
-                    <div id="desc">
-                        <code>
-                            <i><b>Why I Built This Project</b></i>
-                            <br>
-                            I wanted to learn why there are so many different programming languages. How things are handled behind the <b>Syntax-sugar</b>. So, I picked up the book <a href="https://craftinginterpreters.com/"><b><i>Crafting Interpreteres by Robert Nystrom</i></b></a> and followed along to create my buitiful language, 'Godly'.<br>
-                            Godly is a fully functional programming language implemented in C++, featuring a custom lexer, parser, interpreter, and runtime system. It performs lexical analysis, AST-based parsing, and tree-walk evaluation to execute code within a scoped, object-oriented environment. While developing it, I designed language semantics, implemented control flow, variable scoping, and function execution, and optimized performance through efficient memory management and pointer handling — gaining a deep, hands-on understanding of how interpreters and runtime systems actually work.
-                        </code>
-                    </div>
-                </div>
+          <div id="project">
+            <div id="title">
+              <h2>TIL CLI</h2>
+              <div id="github-logo">
+                <a
+                  href="http://github.com/theharshjha/portfolio"
+                  target="_blank"
+                  ><img src="./assets/github-mark-white.svg" alt=""
+                /></a>
+              </div>
             </div>
+            <div id="tech-stack">
+              <a
+                target="_blank"
+                href="https://en.wikipedia.org/wiki/JavaScripts"
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                  <path
+                    fill="#F0DB4F"
+                    d="M1.408 1.408h125.184v125.185H1.408z"
+                  />
+                  <path
+                    fill="#323330"
+                    d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981-3.832-1.761-8.104-3.022-9.377-5.926-.452-1.69-.512-2.642-.226-3.665.821-3.32 4.784-4.355 7.925-3.403 2.023.678 3.938 2.237 5.093 4.724 5.402-3.498 5.391-3.475 9.163-5.879-1.381-2.141-2.118-3.129-3.022-4.045-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235-5.926 6.724-4.236 18.492 2.975 23.335 7.104 5.332 17.54 6.545 18.873 11.531 1.297 6.104-4.486 8.08-10.234 7.378-4.236-.881-6.592-3.034-9.139-6.949-4.688 2.713-4.688 2.713-9.508 5.485 1.143 2.499 2.344 3.63 4.26 5.795 9.068 9.198 31.76 8.746 35.83-5.176.165-.478 1.261-3.666.38-8.581zM69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149-1.713 3.558-6.152 3.117-8.175 2.427-2.059-1.012-3.106-2.451-4.319-4.485-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901 4.462 2.678 10.459 3.499 16.731 2.059 4.082-1.189 7.604-3.652 9.448-7.401 2.666-4.915 2.094-10.864 2.07-17.444.06-10.735.001-21.468.001-32.237z"
+                  />
+                </svg>
+              </a>
+              <a target="_blank" href="https://nodejs.org/en">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                  <path
+                    fill="#83CD29"
+                    d="M112.771 30.334L68.674 4.729c-2.781-1.584-6.402-1.584-9.205 0L14.901 30.334C12.031 31.985 10 35.088 10 38.407v51.142c0 3.319 2.084 6.423 4.954 8.083l11.775 6.688c5.628 2.772 7.617 2.772 10.178 2.772 8.333 0 13.093-5.039 13.093-13.828v-50.49c0-.713-.371-1.774-1.071-1.774h-5.623C42.594 41 41 42.061 41 42.773v50.49c0 3.896-3.524 7.773-10.11 4.48L18.723 90.73c-.424-.23-.723-.693-.723-1.181V38.407c0-.482.555-.966.982-1.213l44.424-25.561c.415-.235 1.025-.235 1.439 0l43.882 25.555c.42.253.272.722.272 1.219v51.142c0 .488.183.963-.232 1.198l-44.086 25.576c-.378.227-.847.227-1.261 0l-11.307-6.749c-.341-.198-.746-.269-1.073-.086-3.146 1.783-3.726 2.02-6.677 3.043-.726.253-1.797.692.41 1.929l14.798 8.754a9.294 9.294 0 004.647 1.246c1.642 0 3.25-.426 4.667-1.246l43.885-25.582c2.87-1.672 4.23-4.764 4.23-8.083V38.407c0-3.319-1.36-6.414-4.229-8.073zM77.91 81.445c-11.726 0-14.309-3.235-15.17-9.066-.1-.628-.633-1.379-1.272-1.379h-5.731c-.709 0-1.279.86-1.279 1.566 0 7.466 4.059 16.512 23.453 16.512 14.039 0 22.088-5.455 22.088-15.109 0-9.572-6.467-12.084-20.082-13.886-13.762-1.819-15.16-2.738-15.16-5.962 0-2.658 1.184-6.203 11.374-6.203 9.105 0 12.461 1.954 13.842 8.091.118.577.645.991 1.24.991h5.754c.354 0 .692-.143.94-.396.24-.272.367-.613.335-.979-.891-10.568-7.912-15.493-22.112-15.493-12.631 0-20.166 5.334-20.166 14.275 0 9.698 7.497 12.378 19.622 13.577 14.505 1.422 15.633 3.542 15.633 6.395 0 4.955-3.978 7.066-13.309 7.066z"
+                  />
+                </svg>
+              </a>
+              <a target="_blank" href="https://yargs.js.org/">
+                <img src="./assets/yargs-logo.png" />
+              </a>
+              <a target="_blank" href="https://www.npmjs.com/package/inquirer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+                  <path
+                    fill="#cb3837"
+                    d="M2 38.5h124v43.71H64v7.29H36.44v-7.29H2zm6.89 36.43h13.78V53.07h6.89v21.86h6.89V45.79H8.89zm34.44-29.14v36.42h13.78v-7.28h13.78V45.79zm13.78 7.29H64v14.56h-6.89zm20.67-7.29v29.14h13.78V53.07h6.89v21.86h6.89V53.07h6.89v21.86h6.89V45.79z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div id="desc">
+              <code>
+                <i><b>Why I Built This Project</b></i>
+                <br />
+                I wasn’t interested in building another clone or following along
+                with a YouTube tutorial. Fortunately, I’d read somewhere that
+                many of the most widely used applications like Git, Linux,
+                Slack, and Gmail, etc. all started as personal or hobby
+                projects. That idea stuck with me.
+                <br />
+                So I asked myself:
+                <b><i>What can I build that I’d actually use every day?</i></b>
+                <br />
+                At the time, I already had a
+                <a href="/til.html">“TIL”(Today I Learned)</a> page on my
+                website where I documented small learnings. To make that process
+                faster and more efficient, I decided to build a command-line
+                utility that lets me quickly record new TILs and automatically
+                generate a static HTML page with all entries to date.
+              </code>
+            </div>
+          </div>
+          <div id="project">
+            <div id="title">
+              <h2>GODLY</h2>
+              <div id="github-logo">
+                <a href="https://github.com/theharshjha/godly" target="_blank"
+                  ><img src="./assets/github-mark-white.svg" alt=""
+                /></a>
+              </div>
+            </div>
+            <div id="tech-stack">
+              <a target="_blank" href="https://en.wikipedia.org/wiki/C%2B%2B">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  x="0px"
+                  y="0px"
+                  width="24"
+                  height="auto"
+                  viewBox="0 0 48 48"
+                >
+                  <path
+                    fill="#00549d"
+                    fill-rule="evenodd"
+                    d="M22.903,3.286c0.679-0.381,1.515-0.381,2.193,0 c3.355,1.883,13.451,7.551,16.807,9.434C42.582,13.1,43,13.804,43,14.566c0,3.766,0,15.101,0,18.867 c0,0.762-0.418,1.466-1.097,1.847c-3.355,1.883-13.451,7.551-16.807,9.434c-0.679,0.381-1.515,0.381-2.193,0 c-3.355-1.883-13.451-7.551-16.807-9.434C5.418,34.899,5,34.196,5,33.434c0-3.766,0-15.101,0-18.867 c0-0.762,0.418-1.466,1.097-1.847C9.451,10.837,19.549,5.169,22.903,3.286z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    fill="#0086d4"
+                    fill-rule="evenodd"
+                    d="M5.304,34.404C5.038,34.048,5,33.71,5,33.255 c0-3.744,0-15.014,0-18.759c0-0.758,0.417-1.458,1.094-1.836c3.343-1.872,13.405-7.507,16.748-9.38 c0.677-0.379,1.594-0.371,2.271,0.008c3.343,1.872,13.371,7.459,16.714,9.331c0.27,0.152,0.476,0.335,0.66,0.576L5.304,34.404z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    fill="#fff"
+                    fill-rule="evenodd"
+                    d="M24,10c7.727,0,14,6.273,14,14s-6.273,14-14,14 s-14-6.273-14-14S16.273,10,24,10z M24,17c3.863,0,7,3.136,7,7c0,3.863-3.137,7-7,7s-7-3.137-7-7C17,20.136,20.136,17,24,17z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    fill="#0075c0"
+                    fill-rule="evenodd"
+                    d="M42.485,13.205c0.516,0.483,0.506,1.211,0.506,1.784 c0,3.795-0.032,14.589,0.009,18.384c0.004,0.396-0.127,0.813-0.323,1.127L23.593,24L42.485,13.205z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    fill="#fff"
+                    fill-rule="evenodd"
+                    d="M31 21H33V27H31zM38 21H40V27H38z"
+                    clip-rule="evenodd"
+                  ></path>
+                  <path
+                    fill="#fff"
+                    fill-rule="evenodd"
+                    d="M29 23H35V25H29zM36 23H42V25H36z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+              <a href="https://cmake.org/" target="_blank">
+                <img src="./assets/cmake-icon.svg" alt="" />
+              </a>
+            </div>
+            <div id="desc">
+              <code>
+                <i><b>Why I Built This Project</b></i>
+                <br />
+                I wanted to learn why there are so many different programming
+                languages. How things are handled behind the
+                <b>Syntax-sugar</b>. So, I picked up the book
+                <a href="https://craftinginterpreters.com/"
+                  ><b><i>Crafting Interpreteres by Robert Nystrom</i></b></a
+                >
+                and followed along to create my buitiful language, 'Godly'.<br />
+                Godly is a fully functional programming language implemented in
+                C++, featuring a custom lexer, parser, interpreter, and runtime
+                system. It performs lexical analysis, AST-based parsing, and
+                tree-walk evaluation to execute code within a scoped,
+                object-oriented environment. While developing it, I designed
+                language semantics, implemented control flow, variable scoping,
+                and function execution, and optimized performance through
+                efficient memory management and pointer handling — gaining a
+                deep, hands-on understanding of how interpreters and runtime
+                systems actually work.
+              </code>
+            </div>
+          </div>
+        </div>
       </div>
       <div id="right"></div>
     </div>
