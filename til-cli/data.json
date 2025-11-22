@@ -23,6 +23,15 @@
           "linux"
         ]
       }
+    ],
+    "2025-11-13": [
+      {
+        "til": "In ASCII, codes 0–31 and 127 are non-printable control characters(like new-line, ESC, del) from type-writer systems, while 32–126 make up the entire printable character set.\n",
+        "tags": [
+          "ASCII",
+          "Encoding"
+        ]
+      }
     ]
   }
 }
